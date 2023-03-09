@@ -16,7 +16,7 @@ BinaerArrayIITesttreiber
 
 ### Aufgabe:
 1. Initialisieren Sie ein zweidimensionales Array mit n Zeilen und n Spalten, wobei
-   Sie n einlesen, zufällig mit Nullen und Einsen.
+   Sie n einlesen, zufällig mit Nullen und Einsen füllen.
 
    Nutzen Sie hierfür den Zufallszahlengenerator der Klasse Math
 
