@@ -2,9 +2,9 @@ public class BinaerArrayII {
     public static void ausgeben(int matrix[][]) {
         int[] zwischenSpeicherArray;
         int p = 0;
-        int ausgabeSubArray =0;
-        int i = 1;
-        int j = 2;
+        int ausgabeSubArray = 0;
+        int i = 0;
+        int j = 0;
 
         /*for (int [] j  : matrix) {
             System.out.print("\nZeile " + j + " :");
@@ -33,8 +33,14 @@ public class BinaerArrayII {
                 }
             }
         }*/
-        for (int [] e : matrix) {
-            System.out.println("TZEST: " + matrix[i][i] + "\t" + matrix[j][j]);
-        }
+        /*for (int [] e : matrix) {
+            System.out.print("TZEST: " + matrix[i][j]);
+
+            for (int [] r : matrix) {
+                System.out.println("\n\t=>: " + matrix[i][j]);
+                j++;
+            }
+            i++;
+        }*/
     }
 }
