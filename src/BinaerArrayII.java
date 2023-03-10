@@ -3,23 +3,24 @@ public class BinaerArrayII {
         int[] zwischenSpeicherArray;
         int p = 0;
         int ausgabeSubArray = 0;
-        int i = 0;
-        int j = 0;
+        int steiger = 0;
+        int heber = 0;
 
-        /*for (int [] j  : matrix) {
-            System.out.print("\nZeile " + j + " :");
+        for (int [] j  : matrix) {
+            System.out.print("\nZeile " + matrix[steiger][heber] + " :");
+            steiger++;
             for (int i : j) {
-                //System.out.print(" " + i);
+                System.out.print(" " + i + "\t");
                 // Immer wenn im Subarray Matrix ein Zähler hochgesetzt.
                 if (i == 0) {
                     p++;
-                    System.out.print("NULL");
                 }
+
             }
-            for (int q = p; q <= p; p--) {
-                System.out.print(" HELLO\t");
-            }
-        }*/
+                System.out.println(" Anzahlen Nullen:\t" + p);
+            p = 0;
+            heber++;
+        }
         /*for (int[] e : matrix) {
 
         }
