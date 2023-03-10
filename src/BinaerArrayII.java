@@ -7,7 +7,7 @@ public class BinaerArrayII {
         int heber = 0;
 
         for (int [] j  : matrix) {
-            System.out.print("\nZeile " + matrix[steiger][heber] + " :");
+            System.out.print("\nZeile " + heber + " :");
             steiger++;
             for (int i : j) {
                 System.out.print(" " + i + "\t");
