@@ -5,7 +5,7 @@ public class BinaerArrayIITesttreiber {
         Scanner scanner = new Scanner(System.in);
         int eingabe;
         int zufall;
-        int l;
+        int l = 15;
         /* Test Values
         eingabe = 3;
          */
@@ -15,7 +15,8 @@ public class BinaerArrayIITesttreiber {
         int zweiDimMatrix [][] = new int[eingabe][eingabe];
         for (int f = 0; f < zweiDimMatrix.length; f++) {
             for (int k = 0; k < zweiDimMatrix[f].length; k++) {
-                zweiDimMatrix[f][k] = (int)(Math.random() * 100);
+                //l = (int)Math.round(Math.random());
+                zweiDimMatrix[f][k] = l;
             }
         }
         BinaerArrayII.ausgeben(zweiDimMatrix);
